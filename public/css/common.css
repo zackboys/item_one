@@ -1,0 +1,14 @@
+*{box-sizing: border-box}
+body{color:#fff;background:#1b1b1b;}
+
+a{text-emphasis: none;color:#fff;}
+ul{list-style: none}
+
+.m-0{margin:0;}
+
+.font_size_little{font-size:12px}
+.font_size_mediume{font-size:18px}
+.font_size_big{font-size:25px}
+
+
+

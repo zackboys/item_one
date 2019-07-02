@@ -1,0 +1,29 @@
+
+
+/* 展示 */
+.products{padding:0 10%;}
+.products_top{width:1068px;margin:60px auto;}
+.products_concent{width:1068px; margin:0 auto;}
+.products_concent_ul{padding:0;margin-bottom: 80px;} 
+.products_concent_ul::after{content:'';display:block;clear: both;}
+.products_concent_ul li{float:left;margin:0px 18px;}
+
+
+/* 关于我们 */
+#about{height:768px;background-image: url(../img/wKgBS1rVURWAVAR_AAX7NXmtAD8820.jpg);background-size: cover}
+.about_left{width:577px;height:377px;padding-left:2%;background:#f8c80f;color:#000;float:left;margin-left:20%;margin-top: 7%;}
+.about_left_top{margin:50px 0}
+.about_left_content{color:#555555}
+
+.about_right{float:right;width:470px;margin-top:11%;margin-right:24%;margin-left:-5%;}
+.about_right_top{margin-bottom: 60px;}
+
+/* 数据 */
+#data{background:rgba(33, 33, 33,1)}
+.data{width:1068px;margin:50px auto}
+.data_li{float:left;}
+.data_li_span{font-size: 30px;}
+
+
+
+

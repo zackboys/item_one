@@ -1,13 +1,7 @@
-*{box-sizing: border-box}
-a{text-emphasis: none;}
-ul{list-style: none}
-
-.font_size_little{font-size:12px}
-.font_size_mediume{font-size:18px}
-.font_size_big{font-size:25px}
 
 
-#top{width:80%;height:80px;margin:0 auto;background-image: linear-gradient(angle,)}
-.top_ul{float:right;}
+#top{width:80%;margin:0 auto;}
+#top::after{content:'';display:block;clear: both;}
+.top_ul{float:right;margin:40px 0}
 .top_ul li{float:left;margin-right:50px;}
 
