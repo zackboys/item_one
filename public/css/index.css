@@ -1,4 +1,9 @@
 
+/* 轮播图 */
+
+
+
+
 
 /* 展示 */
 .products{padding:0 10%;}
@@ -10,19 +15,33 @@
 
 
 /* 关于我们 */
-#about{height:768px;background-image: url(../img/wKgBS1rVURWAVAR_AAX7NXmtAD8820.jpg);background-size: cover}
-.about_left{width:577px;height:377px;padding-left:2%;background:#f8c80f;color:#000;float:left;margin-left:20%;margin-top: 7%;}
+#about{height:768px;background-image: url(../img/wKgBS1rVURWAVAR_AAX7NXmtAD8820.jpg);background-size: cover;position: relative;}
+.about_left{width:577px;height:377px;padding-left:2%;background:#f8c80f;color:#000;position: absolute;top:100px;left:18%;}
 .about_left_top{margin:50px 0}
 .about_left_content{color:#555555}
 
-.about_right{float:right;width:470px;margin-top:11%;margin-right:24%;margin-left:-5%;}
-.about_right_top{margin-bottom: 60px;}
+.about_right{width:470px;position: absolute;top:200px;right:27%;}
+.about_right img{z-index:10}
+.about_right_top{margin-bottom: 60px;padding-left:50px;}
+.about_right_bottom{width:401px;height:89px;background:#f8c80f;position: absolute;bottom:-10%;left:-10%;}
 
 /* 数据 */
 #data{background:rgba(33, 33, 33,1)}
-.data{width:1068px;margin:50px auto}
-.data_li{float:left;}
-.data_li_span{font-size: 30px;}
+.data{width:1068px;margin:50px auto;position: relative;}
+.data ul li{position: absolute;top:10px}
+.data_li1{left:5%;border-right:1px solid rgb(33,33, 33);padding-right:7%;}
+.data_li2{left:30%;border-right:1px solid rgb(33,33, 33);padding-right:7%;}
+.data_li3{right:30%;border-right:1px solid rgb(33,33, 33);padding-right:7%;}
+.data_li4{right:5%}
+.data_li_span{font-size:54px;margin:0;}
+.data_li_span+ p{font-size: 20px;margin:0;margin-left:20%;}
+
+/* 精品推荐 */
+
+
+
+
+
 
 
 
