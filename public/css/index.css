@@ -26,8 +26,8 @@
 .about_right_bottom{width:401px;height:89px;background:#f8c80f;position: absolute;bottom:-10%;left:-10%;}
 
 /* 数据 */
-#data{background:rgba(33, 33, 33,1)}
-.data{width:1068px;margin:50px auto;position: relative;}
+#data{background:rgba(33, 33, 33,1);height:180px;margin-top:-20px;padding-top:30px;}
+.data{width:1068px;margin:0px auto;position: relative;}
 .data ul li{position: absolute;top:10px}
 .data_li1{left:5%;border-right:1px solid rgb(33,33, 33);padding-right:7%;}
 .data_li2{left:30%;border-right:1px solid rgb(33,33, 33);padding-right:7%;}
@@ -37,11 +37,27 @@
 .data_li_span+ p{font-size: 20px;margin:0;margin-left:20%;}
 
 /* 精品推荐 */
+#recommend{width:60%;margin: 0 auto;}
+.recommend_top{margin:50px 0}
+.recommend_content{height:500px;position:relative;}
+.recommend_content div{position: absolute;}
+.recommend_content_one{left:0;top:0;}
+.recommend_content_two{width:50%;height:45%;right:0;top:0}
+.recommend_content_two img{width:50%;}
+
+.recommend_content_there{width:50%;height:45%;bottom:0;right:0;}
+.recommend_content_there img{width:50%}
+
+.recommend_content_div{width:50%;height:100%;padding-top:6%;background:#212121;padding:5%;}
+.recommend_content_div_div{width:80%;height:80%;text-align: center;}
+.recommend_content_p1{color:#f8c80f}
+.recommend_content_p4{width:30%;margin:0 auto;color:#f8c80f;border:1px solid #f8c80f;border-radius: 2rem}
+
+.recommend_content_left{position:absolute;left:0;top:0px;}
+.recommend_content_right{position: absolute;top:0;right:0;}
 
 
-
-
-
+.recommend_content_two:hover .recommend_content_div_div{border:2px solid #f8c80f}
 
 
 
