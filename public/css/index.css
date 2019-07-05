@@ -37,13 +37,13 @@
 .data_li_span+ p{font-size: 20px;margin:0;margin-left:20%;}
 
 /* 精品推荐 */
-#recommend{width:60%;margin: 0 auto;}
-.recommend_top{margin:50px 0}
+#recommend{width:60%;margin:80px auto;}
+.recommend_top{margin-bottom:50px}
 .recommend_content{height:500px;position:relative;}
-.recommend_content div{position: absolute;}
+.recommend_content div{position:absolute;}
 .recommend_content_one{left:0;top:0;}
 .recommend_content_two{width:50%;height:45%;right:0;top:0}
-.recommend_content_two img{width:50%;}
+.recommend_content_two_img{}
 
 .recommend_content_there{width:50%;height:45%;bottom:0;right:0;}
 .recommend_content_there img{width:50%}
@@ -53,11 +53,49 @@
 .recommend_content_p1{color:#f8c80f}
 .recommend_content_p4{width:30%;margin:0 auto;color:#f8c80f;border:1px solid #f8c80f;border-radius: 2rem}
 
-.recommend_content_left{position:absolute;left:0;top:0px;}
-.recommend_content_right{position: absolute;top:0;right:0;}
+.recommend_content_left{width:50%;height:100%;position:absolute;left:0;top:0;}
+.recommend_content_right{width:50%;height:100%;position:absolute;top:0;right:0;}
 
-
+/* 鼠标悬浮效果 */
+.recommend_content_two:hover .recommend_content_two_img{transform: scale(0.8)}
 .recommend_content_two:hover .recommend_content_div_div{border:2px solid #f8c80f}
+.recommend_content_two:hover .recommend_content_p4{background:#fff;color:#000;border:0;}
+
+.recommend_content_there:hover .recommend_content_div_div{border:2px solid #f8c80f}
+.recommend_content_there:hover .recommend_content_p4{background:#fff;color:#000;border:0;}
+
+/* 相关资讯 */
+#view{height:602px;background-image: url(../img/wKgBS1rVUVCAHhTQAAE_YfoEQYM129.jpg)}
+.view{width:60%;margin:0 auto;}
+.view::before{content: "";display:table;}
+.view .v_p{margin:4% 0;margin-bottom:7%;}
+
+.v_img img{margin:0 2%;}
+
+/* Galley */
+#galley{height:900px;}
+.g_top{width:60%;height: 290px;margin:0 auto;background:#1b1b1b;position:relative;}
+.g_top img{height:100%;}
+.g_top div{width:50%;position:absolute;top:0;}
+.g_t_left{width:50%;left:0;padding-right:20%;padding-left:3%;}
+.g_t_left h1{font-size:50px;}
+
+.g_t_div{width:50%;right:0;}
+.g_t_left2{width:50%;left:0;padding:0}
+.g_t_div img,.g_t_left2 img{width:100%;}
+.g_t_r_2{display:none}
+/* 鼠标悬浮效果 */
+.g_t_left2:hover .g_t_r_1{display: none;}
+.g_t_left2:hover .g_t_r_2{display:inline-block}
+.g_t_div:hover .g_t_r_1{display: none;}
+.g_t_div:hover .g_t_r_2{display:inline-block}
+
+/* 用户评价 */
+
+
+
+
+
 
 
 

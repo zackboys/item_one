@@ -1,7 +1,7 @@
 *{box-sizing: border-box}
 body{color:#fff;background:#1b1b1b;}
 
-a{text-emphasis: none;color:#fff;}
+a{text-emphasis: none;color:#fff;text-decoration:none}
 ul{list-style: none}
 
 .m-0{margin:0;}
@@ -10,6 +10,9 @@ ul{list-style: none}
 .font_size_mediume{font-size:18px}
 .font_size_big{font-size:25px}
 .font_size_h{font-size:45px}
+
+.font_color{color:#747474}
+
 
 .float_l{float:left;}
 .float_r{float:right;}
