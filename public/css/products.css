@@ -1,0 +1,16 @@
+
+
+#top_img img{width:100%;}
+
+#products{background:#212121}
+.products::before{content: "";display: table;}
+.products_ul{border:0;margin:20px 0;}
+.nav-item{border:0;}
+
+.page_ul{width:20%;margin:20px auto;}
+.page_ul li{margin: 0 5px;}
+.page_ul li a{border-radius: 2PX;color:#fff !important;background:#666 !important;border:0;}
+
+
+
+
