@@ -2,7 +2,7 @@
 
 
 
-
+.bmw_top{height:542px;}
 .bmw_ul{margin:15px 0}
 .bmw_ul li a{background:#1b1b1b;padding:0}
 .nav-tabs {  border-bottom:0;}
@@ -12,6 +12,12 @@
 .bmw_table{border-collapse:separate; border-spacing:10px 20px;}
 .b_r_border_color{border-color:#f13}
 .b_r_text{text-decoration:line-through}
+
+/* 详情 */
+#details{}
+
+
+
 
 
 

@@ -10,8 +10,8 @@ ul{list-style: none}
 
 
 
-.font_size_little{font-size:12px}
-.font_size_mediume{font-size:18px}
+.font_size_little{font-size:14px}
+.font_size_mediume{font-size:20px}
 .font_size_big{font-size:25px}
 .font_size_h{font-size:45px}
 
@@ -29,3 +29,5 @@ ul{list-style: none}
 
 
 .my_header,.my_footer{ width:100%;}
+
+#top_img img{width:100%;}
