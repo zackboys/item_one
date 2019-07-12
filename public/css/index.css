@@ -51,16 +51,16 @@
 
 /* 相关资讯 */
 #view{background-image: url(../img/index/wKgBS1rVUVCAHhTQAAE_YfoEQYM129.jpg)}
-.view::before{content: "";display:table;}
-.view .v_p{margin:4% 0;margin-bottom:7%;}
+#view::before{content: "";display:table;}
+.v_p{margin:2% 0;margin-left:2%;}
 .v_img img{margin:0 2%;}
 
 /* Galley */
-#galley{height:900px;}
+
 .g_top{height: 290px;margin:0 auto;background:#1b1b1b;position:relative;}
 .g_top img{height:100%;}
 .g_top div{width:50%;position:absolute;top:0;}
-.g_t_left{width:50%;left:0;padding-right:20%;padding-left:3%;}
+.g_t_left{width:50%;left:0;}
 .g_t_left h1{font-size:50px;}
 
 .g_t_div{width:50%;right:0;}
