@@ -1,10 +1,4 @@
 
-
-.my_header{}
-
-
-
-
 /* 轮播图 */
 .carousel-control-prev,.carousel-control-next{width:4%;height:20%;top: 40%;background-color:transparent;border-radius: 0.25rem;}
 
@@ -15,18 +9,30 @@
 .products_concent{width:1068px; margin:0 auto;}
 .products_concent a{margin: 15px 20px;}
 
+  /* 鼠标悬浮 */
+.arrow{width:35px;height:35px;text-align:center;line-height: 30px;font-size:25px;color:#000;border-radius: 50%;
+  background:#f8c80f;position: absolute;top:66%;right:15%;display: none}
+.div_hover{overflow: hidden;position:relative}
+
+.div_hover:hover .arrow{display: block} 
+.div_hover:hover .img_l{transform:scale(1.1) }
+.div_hover:hover .div_hover_p{color:#f8c80f}
 
 /* 关于我们 */
 #about{height:768px;background-image: url(../img/index/wKgBS1rVURWAVAR_AAX7NXmtAD8820.jpg);background-size: cover;
   position: relative;}
+/* 关于我们左边 */
 .about_left{width:50%;height:377px;padding-left:2%;background:#f8c80f;color:#000;position: absolute;top:100px;left:5%;}
 .about_left_top{margin:50px 0}
 .about_left_content{color:#555555}
 
+/* 关于我们右边 */
 .about_right{width:40%;height:340px;position: absolute;top:200px;right:5%;}
 .about_right img{position: absolute;left:0;bottom:0;}
 .about_right_top{margin-bottom: 60px;padding-left:50px;}
 .about_right_bottom{width:401px;height:89px;background:#f8c80f;position: absolute;bottom:-12%;left:-10%;}
+
+
 
 /* 数据 */
 #data{background:rgba(33, 33, 33,1);height:180px;margin-top:-20px;padding-top:30px;}
@@ -37,26 +43,46 @@
 .data_li3{right:30%;border-right:1px solid rgb(33,33, 33);padding-right:7%;}
 .data_li4{right:5%}
 .data_li_span{font-size:54px;margin:0;}
-.data_li_span+ p{font-size: 20px;margin:0;margin-left:20%;}
+.data_li_span+p{font-size: 20px;margin:0;margin-left:20%;}
 
 /* 精品推荐 */
 #recommend::before{content: "";display: table;}
 .recommend_top{margin:40px 0;}
-.recommend_content{height:500px;position:relative;}
-.recommend_content div{position:absolute;}
-.recommend_content_one{left:0;top:0;}
-.recommend_content_two{width:50%;right:0;top:0}
-.recommend_content_there{width:50%;bottom:0;right:0;}
+
+.recommend_cotnent_left{padding-left:3%;padding-right:3%;}
+.recommend_cotnent_left>img{}
+.recommend_cotnent_left>div{width:100%;height:500px;padding:100px 20px 100px 20px;display:none}
+.recommend_cotnent_left>div>p:last-child{width:80px;background:#fff;margin:0 auto;border-radius: 0.4rem}
+.recommend_cotnent_left:hover>img{display:none}
+.recommend_cotnent_left:hover>div{display: block}
+
+.recommend_content_right{height:500px;}
+.r_c_r_top{height:236px;transition: all 5s linear;}
+.r_c_r_top>div{width:50%;height:236px;text-align: center;float:left;box-sizing: border-box}
+.r_c_r_top>div>div{height:100%;}
+.r_c_r_top>div>div>p:last-child{width:80px;margin:0 auto;color:#f8c80f;border:1px solid #f8c80f;border-radius: 0.4rem}
+.r_c_r_top>div>img{width:100%;height:100%;}
+
+/* 鼠标悬浮 */
+.r_c_r_top:hover .r_c_r_top_hover{border:1px solid #f8c80f;}
+.r_c_r_top:hover .r_c_r_top_hover>p:nth-child(2n){color:#000}
+.r_c_r_top:hover .r_c_r_top_hover>p:nth-child(3){color:#f8c80f}
+.r_c_r_top:hover .r_c_r_top_hover>p:last-child{border:1px solid #fff;background:#fff}
+.r_c_r_top:hover img{transform: scale(0.9)}
+
 
 
 /* 相关资讯 */
 #view{background-image: url(../img/index/wKgBS1rVUVCAHhTQAAE_YfoEQYM129.jpg)}
 #view::before{content: "";display:table;}
+
+.drop{width:15px;height:15px;border-radius: 50%;background:#fff;
+  background-image: radial-gradient(7px at center center, #fff 50%,#000 50%,#000 80%,#fff 100%)}
+
 .v_p{margin:2% 0;margin-left:2%;}
 .v_img img{margin:0 2%;}
 
 /* Galley */
-
 .g_top{height: 290px;margin:0 auto;background:#1b1b1b;position:relative;}
 .g_top img{height:100%;}
 .g_top div{width:50%;position:absolute;top:0;}
@@ -69,15 +95,11 @@
 
 /* 用户评价 */
 #evaluate{background:rgb(33,33, 33);padding-bottom:30px;}
-.evaluate{}
 .evaluate::before{content:"";display:table;}
 .evaluate p{margin:30px 0px;}
 .e_div{margin-top:60px;}
 
 /* 底部图标 */
-#icon{}
 #icon::after{content: "";display: block;clear: both}
 #icon ul{margin:0 auto;}
 #icon ul li{float:left;margin:15px 20px;}
-
-
